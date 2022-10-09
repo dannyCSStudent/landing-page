@@ -104,3 +104,43 @@ nav ul {
         padding-bottom: 0;
     }
 }
+
+/* -----------------third layer------------------------------ */
+
+.layer-three {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layer-three .bottom-side {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    gap: 16px;
+
+}
+
+.layer-three .bottom-side .container {
+    border: 2px solid black;
+}
+
+.layer-three .bottom-side button {
+    height: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.layer-three .bottom-side sub {
+    padding: 12px;
+    
+}
+
+@media only screen and (max-width:768px) {
+    .layer-three .bottom-side {
+        flex-direction: column;
+    }
+}
