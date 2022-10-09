@@ -144,3 +144,20 @@ nav ul {
         flex-direction: column;
     }
 }
+
+/* ----------------fourth layer--------------------------------- */
+
+.layer-four {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+    border: 2px solid green;
+}
+
+.layer-four p {
+    font-size: 24px;
+}
+
+.layer-four strong {
+    align-self: flex-end;
+}
