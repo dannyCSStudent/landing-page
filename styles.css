@@ -12,14 +12,12 @@ body {
 
 nav {
     display: flex;
-    border: 1px solid black;
 
     align-items: center;
     align-items: baseline;
 }
 
 nav strong {
-    border: 3px solid green;
     flex: 1;
     font-size: 33px;
     padding-left: 100px;
@@ -27,7 +25,6 @@ nav strong {
 
 nav ul {
     display: flex;
-    border: 3px solid red;
     flex: 1;
     list-style: none;
     font-size: 22px;
@@ -68,13 +65,11 @@ nav ul a {
 
 .layer-two {
     display: flex;
-    border: 2px solid red;
     padding: 50px;
     
 }
 
 .layer-two .left-side {
-    border: 2px solid green;
     flex-basis: 50%;
     display: flex;
     align-items: baseline;
@@ -95,7 +90,6 @@ nav ul a {
 
 .layer-two .right-side {
     display: flex;
-    border: 2px solid black;
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
@@ -112,7 +106,6 @@ nav ul a {
 /* -----------------third layer------------------------------ */
 
 .layer-three {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,10 +119,6 @@ nav ul a {
     padding-bottom: 50px;
     gap: 16px;
 
-}
-
-.layer-three .bottom-side .container {
-    border: 2px solid black;
 }
 
 .layer-three .bottom-side button {
@@ -155,7 +144,6 @@ nav ul a {
     display: flex;
     flex-direction: column;
     padding: 50px 100px 50px 100px;
-    border: 2px solid green;
 }
 
 .layer-four p {
@@ -173,7 +161,6 @@ nav ul a {
     display: flex;
     padding: 100px;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .layer-five .container {
@@ -245,15 +232,12 @@ nav ul a {
 
 footer {
     display: flex;
-    border: 2px solid yellow;
-    background-color: cornsilk;
     justify-content: center;
 }
 
 footer ul {
     display: flex;
     list-style-type: none;
-    border: 2px solid black;
     padding: 0;
     gap: 16px;
     font-size: 22px;   
