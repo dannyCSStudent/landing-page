@@ -140,6 +140,7 @@ nav ul a {
     font-weight: bolder;
     color: #1f2937;
     padding-top: 100px;
+    justify-content: center;
 }
 
 .layer-three .bottom-side {
@@ -165,8 +166,14 @@ nav ul a {
 }
 
 @media only screen and (max-width:768px) {
+
+    .layer-three .top-side {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     .layer-three .bottom-side {
         flex-direction: column;
+
     }
 }
 
