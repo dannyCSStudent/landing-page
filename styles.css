@@ -117,10 +117,9 @@ nav ul a {
 
 @media only screen and (max-width:768px) {
     .layer-two {
-        flex-direction: column;
-        padding-top: 0;
-        padding-bottom: 0;
+        flex-direction: column;  
     }
+
 
     .layer-two .left-side button {
         align-self: auto;
