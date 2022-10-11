@@ -12,22 +12,24 @@ body {
 
 nav {
     display: flex;
-
-    align-items: center;
-    align-items: baseline;
+    background-color: #1f2937;
+    color: white;
 }
 
 nav strong {
+    display: flex;
     flex: 1;
-    font-size: 33px;
+    font: 24px #f9faf8;
     padding-left: 100px;
+    align-items: center;
 }
 
 nav ul {
     display: flex;
     flex: 1;
     list-style: none;
-    font-size: 22px;
+    font: 18px #e5e7eb;
+
     justify-content: flex-end;
     gap: 16px;
     padding-right: 100px;
@@ -65,41 +67,62 @@ nav ul a {
 
 .layer-two {
     display: flex;
-    padding: 50px;
-    
+    padding: 50px 100px 50px 100px;
+    background-color: #1f2937;
+    gap: 32px;
 }
 
 .layer-two .left-side {
-    flex-basis: 50%;
     display: flex;
-    align-items: baseline;
-    flex-direction: column;
-    padding: 20px;
-    
+    flex-basis: 50%;
+    flex-direction: column;    
 }
 
-.layer-two .left-side p {
-    font-size: 24px;
+.layer-two .left-side strong {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+    display: flex;
+}
+
+.layer-two .left-side sub {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .layer-two .left-side button {
     margin-top: 10px;
-    padding: 15px;
-    align-self: flex-end;
+    
+    align-self: flex-start;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 10px 20px 10px 20px;
 }
 
 .layer-two .right-side {
     display: flex;
     flex-basis: 50%;
-    justify-content: center;
-    align-items: center;
+    height: 250px;
+    background-color: #e5e7eb;
 }
+
+.layer-two .right-side img {
+    width: 100%;
+    height: 100%;
+}
+
 
 @media only screen and (max-width:768px) {
     .layer-two {
         flex-direction: column;
         padding-top: 0;
         padding-bottom: 0;
+    }
+    .layer-two .left-side button {
+        align-self: auto;
     }
 }
 
