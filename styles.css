@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -34,7 +35,7 @@ nav ul {
     gap: 16px;
     padding-right: 100px;
 
-    
+
 }
 
 nav ul a {
@@ -47,7 +48,7 @@ nav ul a {
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-    
+
     }
 
     nav strong {
@@ -75,7 +76,7 @@ nav ul a {
 .layer-two .left-side {
     display: flex;
     flex-basis: 50%;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .layer-two .left-side strong {
@@ -120,6 +121,7 @@ nav ul a {
         padding-top: 0;
         padding-bottom: 0;
     }
+
     .layer-two .left-side button {
         align-self: auto;
     }
@@ -131,15 +133,15 @@ nav ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
 }
 
 .layer-three .top-side {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    padding-top: 50px;
+    padding-top: 100px;
 }
+
 .layer-three .bottom-side {
     display: flex;
     justify-content: space-between;
@@ -159,7 +161,7 @@ nav ul a {
 
 .layer-three .bottom-side sub {
     padding: 16px;
-    
+
 }
 
 @media only screen and (max-width:768px) {
@@ -173,11 +175,16 @@ nav ul a {
 .layer-four {
     display: flex;
     flex-direction: column;
-    padding: 50px 100px 50px 100px;
+    padding: 100px;
+    background-color: #e5e7eb;
 }
 
-.layer-four p {
-    font-size: 24px;
+.layer-four sub {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+    color: #1f2937;
+
 }
 
 .layer-four strong {
@@ -195,7 +202,7 @@ nav ul a {
 
 .layer-five .container {
     display: flex;
-    background-color: lightskyblue;
+    background-color: #3882f6;
     flex-direction: row;
     padding: 25px 100px 25px 100px;
     gap: 32px;
@@ -204,7 +211,7 @@ nav ul a {
 .layer-five .container .left-side {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #e5e7eb;
 
 
 }
@@ -219,41 +226,37 @@ nav ul a {
 
 .layer-five .container .right-side {
     display: flex;
-    align-self: flex-end;
-    flex: 1;
-
-    
-
+    align-self: center;
 
 }
 
 .layer-five .container .right-side button {
     background-color: transparent;
-    color: white;
+    color: #e5e7eb;
     white-space: nowrap;
-    font-size: 20px;
-    border: 2px solid white;
+    font-size: 18px;
+    border: 2px solid #e5e7eb;
 
-    
+
 }
 
 @media only screen and (max-width:768px) {
     .layer-five .container {
         flex-direction: column;
-        padding: 20px;
+        padding: 50px;
         gap: 16px;
     }
 
     .layer-five .container .right-side {
-        align-self: center;     
-    
-        
+        align-self: auto;
     }
 
     .layer-five .container .right-side button {
         height: 50px;
-        
-    
+        align-items: center;
+        width: 100%;
+
+
     }
 
 }
@@ -263,22 +266,8 @@ nav ul a {
 footer {
     display: flex;
     justify-content: center;
-}
-
-footer ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    gap: 16px;
-    font-size: 22px;   
-}
-
-footer ul a {
-    cursor: pointer;
-}
-@media only screen and (max-width:768px) {
-    footer ul {
-        flex-direction: column;
-        align-items: center;
-    }
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
